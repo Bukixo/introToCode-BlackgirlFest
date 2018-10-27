@@ -4,9 +4,9 @@
 
 In order to write code that is visible in the browser we need an environment that allows us to write the code. There are a lot of different environments where you can write and execute code on. If you have any tech experience you may have come across IDE’s (integrated development environment) - where you are able to write, compile and execute code and text editors - which is a more basic and simplied version of an IDE.
 
-But the easiest and the most accessible environment we are going to be using today will be **https://jsbin.com/**
+But the easiest and the most accessible environment we are going to be using today will be **https://codepen.io/**
 
-Jsbin is an easy to use online editor that allows you to write and test code by being able to view changes you have made in real time. On the taps we see that we have options to write html, css and other languages. 
+Codepen is an easy to use online editor that allows you to write and test code by being able to view changes you have made in real time. On the taps we see that we have options to write html and css. 
 
 Let’s begin by writing some html! 
 
@@ -16,7 +16,8 @@ HTML is defined as *Hypertext Markup Language* and its used to define how conten
 
 One of the easiest ways of understanding how coding languages are used, is by using the human body as an analogy - the skeleton is what defines the body. CSS which stands for  *cascading style sheet* would be what we look like as CSS is essentially about styling the webpage and if we really want to go indepth we can argue that our personalities and neural systems are frontend and backend languages!
 
-When you first open up JSBin you already see that it has the some code already in it. This is the standard html you will see on every web page and it is called a html boiler plate. 
+To begin we need to our html boilerplate - this is the standard and foundation of every webpage. You could write out yourself or copy it from 
+ 
 
 The `<!DOCTYPE html>` declaration defines this document to be HTML5.
 The `<html>` element is the root element of an HTML page.
