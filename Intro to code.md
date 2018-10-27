@@ -12,11 +12,11 @@ Let’s begin by writing some html!
 
 ### Intro to HTML
 
-HTML is defined as *Hypertext Markup Language* and its used to define how content is displayed in the html file. A html file is the basis of a webpage.
+HTML is defined as **Hypertext Markup Language** and it's used to define how content is displayed in the html file. A html file is the basis of a webpage.
 
 One of the easiest ways of understanding how coding languages are used, is by using the human body as an analogy - the skeleton is what defines the body. CSS which stands for  *cascading style sheet* would be what we look like as CSS is essentially about styling the webpage and if we really want to go indepth we can argue that our personalities and neural systems are frontend and backend languages!
 
-To begin we need to our html boilerplate - this is the standard and foundation of every webpage. You could write out yourself or copy it from 
+To begin we need to our html boilerplate - this is the standard and foundation of every webpage. You could write out yourself or copy it from **http://htmlshell.com/**
  
 
 The `<!DOCTYPE html>` declaration defines this document to be HTML5.
@@ -38,7 +38,7 @@ We are going to take it further by adding links on to your li tag with the use o
  
 Attributes provide additional information about HTML elements.
  
-Inside the li tag we insert the `< a href =” ”>` link used to insert links
+Inside the li tag we insert the `< a href =” ”>` link used to insert links. We engulf the <a> tag in our link and make sure to close it with `</a>`
  
 
 ~~~
@@ -60,7 +60,7 @@ But before we do this we want to make sure that the layout of our page is laid o
  
 Div stands for division and it helps us divide parts of a page. It can basically be seen as a container for content. 
  
-Inside our div container we enter another html attribute `<img>` tag. Go on your facebook/instagram or or even google images. Right click and click on "copy image address" then you paste this inside the src tag.
+Inside our div container we enter another html attribute `<img src=" ">` tag. Go on your facebook/instagram or or even google images. Right click and click on "copy image address" then you paste this inside the src after the `=` sign.
  
 ~~~
  <div>
