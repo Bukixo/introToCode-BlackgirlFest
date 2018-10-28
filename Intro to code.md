@@ -14,7 +14,7 @@ Let’s begin by writing some html!
 
 HTML is defined as **Hypertext Markup Language** and it's used to define how content is displayed in the html file. A html file is the basis of a webpage.
 
-One of the easiest ways of understanding how coding languages are used, is by using the human body as an analogy - the skeleton is what defines the body. CSS which stands for  *cascading style sheet* would be what we look like as CSS is essentially about styling the webpage and if we really want to go indepth we can argue that our personalities and neural systems are frontend and backend languages!
+One of the easiest ways of understanding how coding languages are used, is by using the human body as an analogy - the skeleton is what defines the body. CSS which stands for  *Cascading Style Sheet* would be what we look like, as CSS is essentially all about styling the webpage and if we really want to go in depth we can argue that our personalities and neural systems are frontend and backend languages!
 
 To begin we need to our html boilerplate - this is the standard and foundation of every webpage. You could write out yourself or copy it from **http://htmlshell.com/**
  
@@ -60,7 +60,7 @@ But before we do this we want to make sure that the layout of our page is laid o
  
 Div stands for division and it helps us divide parts of a page. It can basically be seen as a container for content. 
  
-Inside our div container we enter another html attribute `<img src=" ">` tag. Go on your facebook/instagram or or even google images. Right click and click on "copy image address" then you paste this inside the src after the `=` sign.
+Inside our div container we enter another html attribute `<img src=" ">` tag. Go on your facebook/instagram or or even google images. Right click and select "copy image address" then you paste this inside the src after the `=` sign.
  
 ~~~
  <div>
@@ -76,7 +76,7 @@ The `<hX>` element defines a large heading which spans from 1 - 6 - 1 being the 
 The `<p>` element defines a paragraph. 
  
 ~~~
-<div class="text">
+<div>
     <h1>Buki Thompson</h1>
  
     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."</p>
@@ -130,13 +130,23 @@ div {
 
 ### Appyling specific styling
 
-Now when we are working with multiple div containers, there could be instances where we could like to apply styling to a specific container without it reflecting on the other div containers. We have two options which are **Classes** and **ID’s**, both being attributes. The difference between them is that a Class can be used across muliple elements and an ID can only be used once.
+Now when we are working with multiple div containers, there could be instances where we could like to apply styling to a specific container without it reflecting on the other div containers. We have two options which are **Classes** and **ID’s**, both being attributes. The difference between them is that a Class can be used across muliple elements and an ID is only to be used once.
 
-For this exercise we just use a class. We go back to our HTML and enter the class tag inside out div then back on to the CSS we define the class using `.` followed by the class name ie `.propertyName`.
+For this exercise we just use a class. We go back to our HTML and enter the class tag inside out div.
+
+~~~
+<div class="text">
+    <h1>Buki Thompson</h1>
+ 
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."</p>
+</div>
+~~~ 
+
+Then back on to the CSS we define the class using `.` followed by the class name ie `.propertyName`.
 
 Firstly, we want to align the text to the left. Then we add some spacing around the text using padding and give it 20px.
 
-~~~[]()
+~~~
 .text {
   margin: 10px;
   padding: 20px;
@@ -144,7 +154,9 @@ Firstly, we want to align the text to the left. Then we add some spacing around 
 }
 ~~~
 
-[Finished page](https://output.jsbin.com/naxujok/1)
+And here we have our finished webpage!
+
+[Finished page](https://codepen.io/buki/pen/ePxXOz)
 
 ###Rescources
 
