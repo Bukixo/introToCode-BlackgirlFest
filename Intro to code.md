@@ -2,7 +2,7 @@
 
 ### Coding environment
 
-In order to write code that is visible in the browser we need an environment that allows us to write the code. There are a lot of different environments where you can write and execute code on. If you have any tech experience you may have come across IDE’s (integrated development environment) - where you are able to write, compile and execute code and text editors - which is a more basic and simplied version of an IDE.
+In order to write code that is visible in the browser we need an environment that allows us to write the code. There are a lot of different environments where you can write and execute code on. If you have any tech experience you may have come across IDE’s (integrated development environment) - where you are able to write, compile and execute code and text editors - which is a more basic and simplified version of an IDE.
 
 But the easiest and the most accessible environment we are going to be using today will be **https://codepen.io/**
 
@@ -18,12 +18,11 @@ One of the easiest ways of understanding how coding languages are used, is by us
 
 To begin we need to our html boilerplate - this is the standard and foundation of every webpage. You could write out yourself or copy it from **http://htmlshell.com/**
  
-
 The `<!DOCTYPE html>` declaration defines this document to be HTML5.
 The `<html>` element is the root element of an HTML page.
-The `<head>` element contains meta information about the document
-The `<title>` element specifies a title for the document
-The `<body>` element contains the visible page content
+The `<head>` element contains meta information about the document, also used to aid SEO search.
+The `<title>` element specifies a title for the document, which would be reflected on the tab of a page.
+The `<body>` element contains the visible page content.
 
 ### Nav Bar
 Now inside the body tag we are going to begin by constructing a nav bar.
@@ -32,7 +31,7 @@ An HTML element usually consists of a start tag and end tag, with the content in
  
 First, we begin with the nav tag `<nav> </nav>` and within the the nav tag we add our content. The nav bar is going to contain a list of links.
  
-To define lists `<ul> </ul>` is used, which stands for unordered lists. Then we define the inidvdual list content we use `<li>`.
+To define lists `<ul> </ul>` is used, which stands for unordered lists. Then we define the individual list content we use `<li>`.
  
 We are going to take it further by adding links on to your li tag with the use of attributes.
  
@@ -83,7 +82,7 @@ The `<p>` element defines a paragraph.
 </div>
 ~~~ 
 
-When you develop websites that has alot of content we use plaecholder text for testing. One such type of placeholder text is called `lorem ipsum`.
+When you develop websites that has a lot of content we use placeholder text for testing. One such type of placeholder text is called `lorem ipsum`.
  
 Now the use of div tags may not seem like anything now but it will make more sense once we start on the css.
 
@@ -100,7 +99,7 @@ body {
 ~~~
 
 ### Styling the Nav Bar
-We are going to apply the same logic on styling our nav bar. We start with the `<ul>` by firstly aligning our text to the center. Then we use the padding element to create space.
+We are going to apply the same logic on styling the nav bar. We start with the `<ul>` by firstly aligning our text to the center. Then we use the padding element to create space.
 
 ~~~
 ul {
@@ -109,7 +108,7 @@ ul {
 }
 ~~~
 
-To remove the bullet points and move the text to eachother we use the display property.
+To remove the bullet points and move the text to each other we use the display property.
 
 ~~~
 li {
@@ -128,9 +127,9 @@ div {
 }
 ~~~
 
-### Appyling specific styling
+### Applying specific styling
 
-Now when we are working with multiple div containers, there could be instances where we could like to apply styling to a specific container without it reflecting on the other div containers. We have two options which are **Classes** and **ID’s**, both being attributes. The difference between them is that a Class can be used across muliple elements and an ID is only to be used once.
+Now when we are working with multiple div containers, there could be instances where we would like to apply styling to a specific container without it reflecting on the other div containers. We have two options which are **Classes** and **ID’s**, both being attributes. The difference between them is that a Class can be used across multiple elements and an ID is only to be used once.
 
 For this exercise we just use a class. We go back to our HTML and enter the class tag inside out div.
 
@@ -158,9 +157,9 @@ And here we have our finished webpage!
 
 [Finished page](https://codepen.io/buki/pen/ePxXOz)
 
-###Rescources
+### Resources
 
-If you enjoyed this and you would like to more here are a list of rescources that really helped me
+If you enjoyed this and you would like to more here are a list of resources that really helped me
 
 **Online**
 
